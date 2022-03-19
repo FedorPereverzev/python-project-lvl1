@@ -1,16 +1,19 @@
 name: linter-check
 
-on: 
+on:
   - push
+  - pull_request
 
 jobs:
-  linter-check:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: setup-python
-        uses: actions/setup-python@v2
-      - name: install1
-        run:  pip install poetry
-      - name: run-linter
-        run:  make lint
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          pip install poetry
+          make install
+      - name: Run linter
+        run: |
+          make lint
