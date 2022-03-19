@@ -7,3 +7,4 @@
 
 [![Linter](https://github.com/FedorPereverzev/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/FedorPereverzev/python-project-lvl1/actions)
 
+https://asciinema.org/a/EU91FoAV4HUimjL6z2K9xhHfi
