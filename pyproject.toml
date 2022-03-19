@@ -3,6 +3,7 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["Fedor Pereverzev <maphtown@gmail.com>"]
+
 packages = [
   { include = "BRAIN_GAMES" },
 ]
