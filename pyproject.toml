@@ -10,6 +10,7 @@ packages = [
 
 [tool.poetry.scripts]
 brain-games = "BRAIN_GAMES.scripts.brain_games:main"
+brain-even = "BRAIN_GAMES.scripts.brain_even:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
