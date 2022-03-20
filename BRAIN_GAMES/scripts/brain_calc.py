@@ -1,10 +1,10 @@
 from random import randint
 import prompt
-from BRAIN_GAMES.cli import name
+from BRAIN_GAMES.cli import welcome_user
 from BRAIN_GAMES.scripts.brain_games import ender
 
 
-def calc():
+def calc(user_name):
     right_answers_count = 0
     print('What is the result of the expression?')
     while right_answers_count < 3:
@@ -31,9 +31,9 @@ def calc():
             print(f'Your answer: {answer}\nCorrect!')
         else:
             print(f"""{answer} is wrong answer ;(. Correct answer was {right_answer}.\n
-            Let's try again, {name}""")
+            Let's try again, {user_name}""")
             return
-    ender(right_answers_count)
+    ender(right_answers_count, user_name)
 
 
-calc()
+calc(welcome_user())

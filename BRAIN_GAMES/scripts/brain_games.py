@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 
 
-from BRAIN_GAMES.cli import welcome_user, name
-
-
-def ender(number):
-    if number == 3:
-        print(f'Congratulations, {name}')
+from BRAIN_GAMES.cli import welcome_user
 
 
 def main():
-    print('Welcome to the Brain Games!')
     welcome_user()
+
+
+def ender(number, user_name):
+    if number == 3:
+        print(f'Congratulations, {user_name}')
 
 
 if __name__ == '__main__':
