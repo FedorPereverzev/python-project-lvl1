@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 
 
-from BRAIN_GAMES.cli import welcome_user
+from BRAIN_GAMES.cli import welcome_user, name
+
+
+def ender(number):
+    if number == 3:
+        print(f'Congratulations, {name}')
 
 
 def main():
