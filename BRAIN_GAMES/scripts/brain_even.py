@@ -1,8 +1,10 @@
 from random import randint
 import prompt
 from BRAIN_GAMES.cli import welcome_user
-from BRAIN_GAMES.scripts.brain_games import ender, _main
+from .brain_games import ender
 
+def main():
+    pass
 
 def iseven(user_name):
     right_answers_count = 0

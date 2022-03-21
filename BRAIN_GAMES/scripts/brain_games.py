@@ -4,7 +4,7 @@
 from BRAIN_GAMES.cli import welcome_user
 
 
-def _main():
+def main():
    welcome_user()
 
 
@@ -13,5 +13,6 @@ def ender(number, user_name):
         print(f'Congratulations, {user_name}')
 
 
-if __name__ == '__main__':
-    _main()
+if __name__ == "__main__":
+    main()
+    
