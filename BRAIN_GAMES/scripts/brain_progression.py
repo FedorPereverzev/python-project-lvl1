@@ -36,7 +36,7 @@ def progression(user_name):
         step_value = randint(0, 10)
         prgrs = prog_maker(progression_length, hidden_position, step_value)
         right_answer = prgrs[1]
-        print(f'Question: {prgrs[0]})
+        print(f'Question: {prgrs[0]}')
         answer = prompt.string('')
         if answer == prgrs[1]:
             right_answers_count += 1
