@@ -31,7 +31,6 @@ def prime(user_name):
         else:
             print(f"""{answer} is wrong answer ;(. Correct answer was {isprime(number)[1]}.\n
             Let's try again, {user_name}!""")
-            return
     ender(right_answers_count, user_name)
 
 
