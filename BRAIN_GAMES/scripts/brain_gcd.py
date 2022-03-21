@@ -4,6 +4,10 @@ from BRAIN_GAMES.cli import welcome_user
 from BRAIN_GAMES.scripts.brain_games import ender
 
 
+def main():
+    pass
+
+
 def gcd_count(mini, maxi):
     i = mini
     while maxi % i != 0 or mini % i != 0:
@@ -28,7 +32,7 @@ def gcd(user_name):
             print(f'Your answer: {answer}\nCorrect!')
         else:
             print(f"""{answer} is wrong answer ;(. Correct answer was {right_answer}.\n
-            Let's try again, {user_name}""")
+            Let's try again, {user_name}!""")
             return
     ender(right_answers_count, user_name)
 

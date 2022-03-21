@@ -3,8 +3,10 @@ import prompt
 from BRAIN_GAMES.cli import welcome_user
 from .brain_games import ender
 
+
 def main():
     pass
+
 
 def iseven(user_name):
     right_answers_count = 0
