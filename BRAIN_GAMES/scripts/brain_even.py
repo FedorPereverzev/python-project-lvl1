@@ -22,7 +22,7 @@ def iseven(user_name):
             print('Correct!')
         else:
             print(f"""{answer} is wrong answer ;(. Correct answer was 'no'.\n
-            Let's try again, {user_name}""")
+            Let's try again, {user_name}!""")
             return
     ender(right_answers_count, user_name)
 
