@@ -14,6 +14,7 @@ brain-even = "BRAIN_GAMES.scripts.brain_even:main"
 brain-calc = "BRAIN_GAMES.scripts.brain_calc:main"
 brain-gcd = "BRAIN_GAMES.scripts.brain_gcd:main"
 brain-progression = "BRAIN_GAMES.scripts.brain_progression:main"
+brain-prime = "BRAIN_GAMES.scripts.brain_prime:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
