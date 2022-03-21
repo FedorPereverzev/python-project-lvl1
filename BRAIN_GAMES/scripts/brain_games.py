@@ -10,7 +10,7 @@ def main():
 
 def ender(number, user_name):
     if number == 3:
-        print(f'Congratulations, {user_name}')
+        print(f'Congratulations, {user_name}!')
 
 
 if __name__ == "__main__":
