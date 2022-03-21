@@ -9,10 +9,15 @@ def main():
 
 
 def isprime(number):
-    if number % 2 != 0 and number != 2:
-        return (True, 'yes')
-    else:
-        return (False, 'no')
+    i = 0
+    prime_tuple = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43,
+                   47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
+    while i < len(prime_tuple):
+        if prime_tuple[i] == number:
+            return (True, 'yes')
+        else:
+            i += 1
+    return (False, 'no')
 
 
 def prime(user_name):
