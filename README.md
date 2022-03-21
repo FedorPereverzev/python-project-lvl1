@@ -6,3 +6,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 
 [![Linter](https://github.com/FedorPereverzev/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/FedorPereverzev/python-project-lvl1/actions)
+
+https://asciinema.org/a/EU91FoAV4HUimjL6z2K9xhHfi
+
+https://asciinema.org/a/ciAT25XgqSdSdz6xDjP4hdQBH
