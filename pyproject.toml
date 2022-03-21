@@ -9,12 +9,12 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-brain-games = "BRAIN_GAMES.scripts.brain_games:main"
-brain-even = "BRAIN_GAMES.scripts.brain_even:main"
-brain-calc = "BRAIN_GAMES.scripts.brain_calc:main"
-brain-gcd = "BRAIN_GAMES.scripts.brain_gcd:main"
-brain-progression = "BRAIN_GAMES.scripts.brain_progression:main"
-brain-prime = "BRAIN_GAMES.scripts.brain_prime:main"
+brain-games = "BRAIN_GAMES.scripts.brain_games:_main"
+brain-even = "BRAIN_GAMES.scripts.brain_even:_main"
+brain-calc = "BRAIN_GAMES.scripts.brain_calc:_main"
+brain-gcd = "BRAIN_GAMES.scripts.brain_gcd:_main"
+brain-progression = "BRAIN_GAMES.scripts.brain_progression:_main"
+brain-prime = "BRAIN_GAMES.scripts.brain_prime:_main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

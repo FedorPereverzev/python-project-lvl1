@@ -5,7 +5,7 @@ from BRAIN_GAMES.cli import welcome_user
 
 
 def _main():
-    welcome_user()
+   welcome_user()
 
 
 def ender(number, user_name):

@@ -1,7 +1,7 @@
 from random import randint
 import prompt
 from BRAIN_GAMES.cli import welcome_user
-from BRAIN_GAMES.scripts.brain_games import ender
+from BRAIN_GAMES.scripts.brain_games import ender, _main
 
 
 def iseven(user_name):
