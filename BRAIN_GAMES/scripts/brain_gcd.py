@@ -25,7 +25,7 @@ def gcd(user_name):
         min_number = min(numbers_tuple)
         max_number = max(numbers_tuple)
         right_answer = gcd_count(min_number, max_number)
-        print(f'Question: {number1}  {number2}')
+        print(f'Question: {number1} {number2}')
         answer = prompt.string('')
         if answer == str(right_answer):
             right_answers_count += 1
