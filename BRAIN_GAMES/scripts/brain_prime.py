@@ -28,9 +28,10 @@ def prime(user_name):
         elif isprime(number)[0] is False and answer == 'no':
             right_answers_count += 1
             print(f'Your answer: {answer}\nCorrect!')
-    else:
-        print(f"""{answer} is wrong answer ;(. Correct answer was {isprime(number)[1]}.\n
-        Let's try again, {user_name}!""")
+        else:
+            print(f"""{answer} is wrong answer ;(. Correct answer was {isprime(number)[1]}.\n
+            Let's try again, {user_name}!""")
+            return
     ender(right_answers_count, user_name)
 
 
