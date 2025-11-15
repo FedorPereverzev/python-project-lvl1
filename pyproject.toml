@@ -15,5 +15,10 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.14.5",
+]
+
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
