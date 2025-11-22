@@ -7,8 +7,8 @@ def random_number(start=0, end=100):
 
 
 def random_operation():
-    operations = ['+', '-']
-    return operations[random_number(0, 1)]
+    OPERATIONS = ['+', '-']
+    return OPERATIONS[random_number(0, 1)]
 
 
 def is_gcd(x, y):
@@ -25,3 +25,14 @@ def progression_maker():
         next_value = int(coll[-1]) + step
         coll.append(next_value)
     return coll
+
+
+def is_prime(n):
+    if n <= 1:
+        return 'no'
+    
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return 'no'
+    
+    return 'yes'

@@ -1,8 +1,11 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Brain Games - collection of mathematical mini games"
 readme = "README.md"
+authors = [
+    { name = "Fedor_Pereverzev", email = "maphtown@gmail.com" }
+]
 requires-python = ">=3.14"
 dependencies = [
     "prompt>=0.4.1",
@@ -26,3 +29,4 @@ brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
