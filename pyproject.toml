@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Fedor_Pereverzev", email = "maphtown@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "prompt>=0.4.1",
 ]
