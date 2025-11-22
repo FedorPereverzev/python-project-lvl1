@@ -8,6 +8,6 @@ def progression():
     right_answer = prog[muted_step]
     prog_to_show = prog[:]
     prog_to_show[muted_step] = '..' 
-    question = f"Question: {' '.join(str(x) for x in prog)}"
+    question = f"Question: {' '.join(str(x) for x in prog_to_show)}"
     
     return right_answer, question
