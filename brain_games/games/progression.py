@@ -10,4 +10,4 @@ def progression():
     prog_to_show[muted_step] = '..' 
     question = f"Question: {' '.join(str(x) for x in prog_to_show)}"
     
-    return right_answer, question
+    return str(right_answer), question
