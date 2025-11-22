@@ -7,6 +7,6 @@ def gcd():
 
     question = f'Question: {number_1} {number_2}'
 
-    right_answer = is_gcd(number_1, number_2)
+    right_answer = str(is_gcd(number_1, number_2))
 
     return right_answer, question
