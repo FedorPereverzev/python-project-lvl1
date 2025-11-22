@@ -1,6 +1,5 @@
-import random
-
 from brain_games.cli import welcome_user
+from brain_games.utils import random_number
 
 
 def even(user_name):
@@ -11,7 +10,7 @@ def even(user_name):
 
     while count_of_corrects < 3:
 
-        number = random.randint(0, 100)
+        number = random_number()
         print(f'Question: {number}')
         answer = input()
         print(f'Your answer: {answer}')
@@ -29,10 +28,11 @@ def even(user_name):
             print(f"'{answer}' is wrong answer ;(. " 
                 f"Correct answer was '{right_answer}'.")
             print(f"Let's try again, {user_name}!")
-            break 
+            return
 
     if count_of_corrects == 3:
-        print(f'Congratulations, {user_name}!')                  
+        print(f'Congratulations, {user_name}!')
+        return 
 
 
 def main():
